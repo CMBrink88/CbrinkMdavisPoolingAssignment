@@ -21,7 +21,7 @@ public class CbrinkleyMDavisPoolingProject : MonoBehaviour
     public static ObjectPooler Instance;
 
     private void Awake(){
-        Instance = this;
+        Instance = this; //Starts up the pooling project when the "game" starts
     }
     #endregion
 
